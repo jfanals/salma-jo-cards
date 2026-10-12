@@ -4,7 +4,11 @@ Preferred file for the shop's CMYK requirement:
 salma-jo-05F-CMYK-front-and-back-print.pdf
 RGB reference: salma-jo-05F-front-and-back-print.pdf
 Page 1: front. Page 2: back. Both upright; printer handles duplex orientation.
-Separate front/back PDFs are also included if the printer requests them.
+For separate upload slots, use:
+FRONT: salma-jo-05F-CMYK-front-print.pdf
+BACK: salma-jo-05F-CMYK-back-print.pdf
+Each file has one page and retains the CMYK output profile and bleed/trim boxes.
+The files without CMYK in their names are RGB references.
 
 FINISHED SIZE: 85 x 55 mm.
 BLEED: 3 mm on all sides.
