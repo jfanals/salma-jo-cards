@@ -4,7 +4,7 @@ Preview only: permissions must be confirmed before print. Requires Pillow.
 import base64
 import io
 import json
-import re
+import qrcode
 from pathlib import Path
 from PIL import Image, ImageOps
 
@@ -37,5 +37,13 @@ for photo in photos:
     '/* Web-sourced photo previews. Print permission not confirmed. */\n'
     'window.SALMA_PHOTOS = ' + json.dumps(photos, ensure_ascii=False) + ';\n'
 )
-qr = re.search(r"const QR='([^']+)'", (root / 'index.html').read_text()).group(1)
-(root / 'assets/qr-data.js').write_text('window.SALMA_QR = "' + qr + '";\n')
+press_url = 'https://tinyurl.com/salmajo-epk'
+qr_image = qrcode.make(press_url, error_correction=qrcode.constants.ERROR_CORRECT_M, box_size=8, border=4)
+buffer = io.BytesIO()
+qr_image.save(buffer, format='PNG')
+qr = 'data:image/png;base64,' + base64.b64encode(buffer.getvalue()).decode('ascii')
+(root / 'assets/qr-data.js').write_text(
+    'window.SALMA_PRESS_URL = ' + json.dumps(press_url) + ';\n'
+    'window.SALMA_PRESS_DISPLAY = "tinyurl.com/salmajo-epk";\n'
+    'window.SALMA_QR = ' + json.dumps(qr) + ';\n'
+)

@@ -14,11 +14,13 @@ These are RGB design drafts, not certified print-ready PDFs. Confirm the contact
 
 Photographs are web-sourced design previews. No license or print permission is asserted or granted for them. Source links and available credit information appear in the Live wire gallery. Obtain permission or replace them with approved press photos before printing. No open-source license is granted for third-party assets.
 
+The card QR and printed short URL point to https://tinyurl.com/salmajo-epk, redirecting to the artist's producer PDF on Google Drive. Keep that TinyURL and the PDF's public sharing available for the lifetime of the printed cards.
+
 Printing prices and cutoff research were checked on 12 October 2026 and are not live quotations or delivery guarantees.
 
 ## Rebuild embedded photo assets
 
-With Python and Pillow installed:
+With Python, Pillow and qrcode installed:
 
 ```sh
 python build-photo-assets.py

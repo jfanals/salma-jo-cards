@@ -32,7 +32,9 @@ No printer-specific profile was supplied. Ask the printer to approve this generi
 and a proof. This file is NOT PDF/X certified. RGB reference PDFs/PNGs/SVGs are also included.
 The dark type and faint photo should be checked at actual size.
 
-QR destination: https://linktr.ee/asalmasalma
+QR / printed short URL: https://tinyurl.com/salmajo-epk
+Verified redirect: https://drive.google.com/file/d/1_ZRlvpERLlyDKjSfZgj4JN7JM8pYnbZB/view
+Press-kit PDF for producers. Previous Linktree QR is obsolete; use the updated PDFs.
 Email: contato@carnedoce.com
 WhatsApp: +55 62 99681-1581
 Instagram: @asalmasalma
