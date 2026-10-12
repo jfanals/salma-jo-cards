@@ -1,6 +1,8 @@
 SALMA JÔ — 05F ONE SIGNATURE
 
-Preferred file: salma-jo-05F-front-and-back-print.pdf
+Preferred file for the shop's CMYK requirement:
+salma-jo-05F-CMYK-front-and-back-print.pdf
+RGB reference: salma-jo-05F-front-and-back-print.pdf
 Page 1: front. Page 2: back. Both upright; printer handles duplex orientation.
 Separate front/back PDFs are also included if the printer requests them.
 
@@ -19,10 +21,12 @@ Back unchanged.
 PNG backups: 2150 x 1441 pixels at 600 dpi, including bleed.
 Use the vector PDF in preference to PNG.
 
-COLOUR: RGB artwork. Not certified PDF/X.
-Ask the printer to convert to its required CMYK profile and check a proof.
-Do not apply an arbitrary CMYK profile; no printer-specific profile was provided.
-Digital black/brown type and the faint photo should be checked at actual size.
+COLOUR: The CMYK PDF was converted with the generic Artifex CMYK SWOP Profile.
+The ICC output profile is embedded; photo and QR are grayscale, coloured artwork is CMYK.
+Fonts are embedded, the 4000 x 6000 photo is retained, and the QR was verified after rendering.
+No printer-specific profile was supplied. Ask the printer to approve this generic profile
+and a proof. This file is NOT PDF/X certified. RGB reference PDFs/PNGs/SVGs are also included.
+The dark type and faint photo should be checked at actual size.
 
 QR destination: https://linktr.ee/asalmasalma
 Email: contato@carnedoce.com
