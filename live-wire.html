@@ -46,7 +46,7 @@ const words=upper.trim().split(/\s+/),last=words.length>1?words.pop():'';const f
 out+=text(53,251,first,fit(first,166,650),'font-weight="800" letter-spacing="-5"')+text(53,414,last,fit(last,182,650),'font-weight="800" letter-spacing="-5"')+text(60,500,'GOIÂNIA, BRASIL / MUSIC',20,'letter-spacing="2"');
 }
 if(d.kind==='night')out+=text(60,95,'LIVE / ELECTRONIC / ALTERNATIVE',20,'letter-spacing="2"')+text(53,287,upper,fit(upper,145),'font-weight="800" letter-spacing="-4"')+text(55,427,upper,fit(upper,145),`fill="none" stroke="${d.ink}" stroke-width="1.4" opacity=".48" font-weight="800" letter-spacing="-4"`);
-if(d.kind==='single')out+=text(60,97,'MUSIC / BRASIL',20,'letter-spacing="2"')+text(53,322,v.name,fit(v.name,145),'font-weight="800" letter-spacing="-5"')+`<path d="M60 446 H790" stroke="${d.ink}" stroke-width="1.5"/>`+text(60,500,v.handle,24);
+if(d.kind==='single')out+=text(60,97,'MUSIC / BRASIL',20,'letter-spacing="2"')+text(53,405,v.name,fit(v.name,145),'font-weight="800" letter-spacing="-5"')+`<path d="M60 446 H790" stroke="${d.ink}" stroke-width="1.5"/>`+text(60,500,v.handle,24);
 }else{
 out+=text(60,87,'MUSIC / BOOKINGS',20,'letter-spacing="2"')+text(58,179,v.name,fit(v.name,56,490),'font-weight="700"')+text(60,228,'Electronic / alternative · Brasil',23);
 out+=text(60,310,v.email,fit(v.email,27,495))+text(60,355,v.handle,fit(v.handle,27,495))+text(60,402,'WhatsApp '+v.phone,fit('WhatsApp '+v.phone,25,495))+text(60,480,'linktr.ee/asalmasalma',21);
